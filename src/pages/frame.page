@@ -1,0 +1,5 @@
+<apex:page >
+    <html>
+        <apex:iframe src="https://www.facebook.com/" scrolling="true" id="theIframe"/>
+    </html>
+</apex:page>

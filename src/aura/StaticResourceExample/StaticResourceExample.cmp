@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+<div>
+    Raja
+    </div>
+    <!-- Asset from an archive static resource -->
+    <ltng:require  scripts="{!$Resource.MyDetails + '/MyDetails/Details.txt'}" afterScriptsLoaded="{!c.scriptsLoaded}"/>
+</aura:component>
